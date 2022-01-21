@@ -24,7 +24,7 @@ THEN I can save my initials and score
 
 The following animation demonstrates the application functionality:
 
-![](C:\Users\diere\OneDrive\Escritorio\projects\coding-quiz.gif)
+![coding-quiz](./assets/images/coding-quiz.gif)
 
 ## Deployed Application URL:
 
