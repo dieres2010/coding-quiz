@@ -28,5 +28,8 @@ The following animation demonstrates the application functionality:
 
 ## Deployed Application URL:
 
-
+ https://dieres2010.github.io/coding-quiz/
+ 
 ## Github Application URL:
+
+https://github.com/dieres2010/coding-quiz.git
