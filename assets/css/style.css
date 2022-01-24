@@ -1,3 +1,9 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
 .top-line {
     display: flex;
     flex-wrap: wrap;
@@ -14,12 +20,8 @@
 h1 {
     text-align: center;
 }
-* {
-    font-family: Arial, Helvetica, sans-serif;
 
-}
-
-.h-text {
+.h-text p {
     display: flex;
     height:fit-content;
     justify-content: space-between;
@@ -30,8 +32,14 @@ h1 {
 .form-group {
     text-align: center;
 }
+
+
+.start-quiz {
+    display:flex;
+    justify-content: center;
+}
+
 .btn{
-    display:inline-block;
     padding:0.3em 1.2em;
     margin:0 0.1em 0.1em 0;
     border:0.16em solid rgba(255,255,255,0);
@@ -47,7 +55,12 @@ h1 {
     background-color: rgb(141, 17, 141);
 }
 
-.btn:hover{
+.btn:hover, 
+.answ-btn1:hover,
+.answ-btn2:hover,
+.answ-btn3:hover,
+.answ-btn4:hover
+ {
     border-color: rgba(255,255,255,1);
     background-color: rgb(210, 104, 231);
     
@@ -57,10 +70,27 @@ h1 {
     .btn{
     display:block;
     margin:0.2em auto;
-    
+    }
 }
     
-.answ-btn {
-    color:darkblue;
+.answ-btn1,
+.answ-btn2,
+.answ-btn3,
+.answ-btn4
+{
+    display:flex;
+    align-content: flex-start;
+    text-align: left;
+    margin:0 0.1em 0.1em 0;
+    padding:0.3em 1.2em;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    transition: all 0.2s;
     background-color: rgb(141, 17, 141);
 }
